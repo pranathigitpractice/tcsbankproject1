@@ -3,14 +3,14 @@
 2    terraform {
 3      requried_providers {
 4        aws = {
-5          source = "hashicrop/azure"
+5          source = "hashicrop/sandy"
 6
 7          }
 8        }
 9      }
 10
 11     # provider Block
-12     provider "azure" {
+12     provider "sandy" {
 13       profile= "default"
 14       region = "us-east-1"
 15      }
